@@ -1,0 +1,218 @@
+/* ---------- Global ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+    background:#0b1220;
+    color:white;
+
+}
+
+/* ---------- Header ---------- */
+
+header{
+
+    background:#111827;
+    padding:30px;
+    text-align:center;
+    border-bottom:1px solid #243244;
+
+}
+
+header h1{
+
+    font-size:34px;
+    margin-bottom:10px;
+
+}
+
+header p{
+
+    color:#9ca3af;
+
+}
+
+/* ---------- Navigation ---------- */
+
+nav{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    background:#0f172a;
+    padding:18px;
+
+}
+
+nav button{
+
+    background:#1e293b;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+nav button:hover{
+
+    background:#2563eb;
+
+}
+
+.active{
+
+    background:#2563eb;
+
+}
+
+/* ---------- Main ---------- */
+
+main{
+
+    width:92%;
+    max-width:1400px;
+    margin:auto;
+    padding:30px;
+
+}
+
+/* ---------- Dashboard Cards ---------- */
+
+.cards{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+
+}
+
+.card{
+
+    background:#111827;
+    padding:25px;
+    border-radius:14px;
+    border:1px solid #1f2937;
+
+}
+
+.card h3{
+
+    color:#9ca3af;
+    margin-bottom:15px;
+
+}
+
+.card h2{
+
+    font-size:34px;
+    color:#38bdf8;
+
+}
+
+/* ---------- Panels ---------- */
+
+.panel{
+
+    margin-top:30px;
+    background:#111827;
+    padding:25px;
+    border-radius:14px;
+    border:1px solid #1f2937;
+
+}
+
+.panel h2{
+
+    margin-bottom:20px;
+
+}
+
+/* ---------- Table ---------- */
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#1f2937;
+    padding:14px;
+    text-align:left;
+
+}
+
+td{
+
+    padding:14px;
+    border-bottom:1px solid #263445;
+
+}
+
+tbody tr:hover{
+
+    background:#172033;
+
+}
+
+/* ---------- Bottom ---------- */
+
+.bottom{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+    margin-top:30px;
+
+}
+
+/* ---------- List ---------- */
+
+ul{
+
+    list-style:none;
+
+}
+
+li{
+
+    padding:12px 0;
+    border-bottom:1px solid #263445;
+
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+
+    margin-top:40px;
+    padding:25px;
+    text-align:center;
+    color:#94a3b8;
+    border-top:1px solid #243244;
+
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:900px){
+
+.bottom{
+
+grid-template-columns:1fr;
+
+}
+
+}

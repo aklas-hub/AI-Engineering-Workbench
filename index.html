@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Engineering Workbench</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>AI Engineering Workbench</h1>
+
+<p>AI Powered Low Latency Market Data Platform</p>
+
+</header>
+
+<nav>
+
+<button class="active">Dashboard</button>
+
+<button>AI Assistant</button>
+
+<button>Market Feed</button>
+
+<button>Latency</button>
+
+<button>Deployment</button>
+
+<button>Architecture</button>
+
+</nav>
+
+<main>
+
+<section class="cards">
+
+<div class="card">
+
+<h3>CPU Usage</h3>
+
+<h2 id="cpu">18%</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Memory</h3>
+
+<h2 id="memory">36%</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Latency</h3>
+
+<h2 id="latency">1.8 ms</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Packets/sec</h3>
+
+<h2 id="packets">845,220</h2>
+
+</div>
+
+</section>
+
+<section class="panel">
+
+<h2>📈 Live Market Feed</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Symbol</th>
+
+<th>Price</th>
+
+<th>Change</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>AAPL</td>
+
+<td id="aapl">201.44</td>
+
+<td id="aaplchange">+0.22%</td>
+
+</tr>
+
+<tr>
+
+<td>MSFT</td>
+
+<td id="msft">472.33</td>
+
+<td id="msftchange">-0.10%</td>
+
+</tr>
+
+<tr>
+
+<td>NVDA</td>
+
+<td id="nvda">170.12</td>
+
+<td id="nvdachange">+0.85%</td>
+
+</tr>
+
+<tr>
+
+<td>GOOG</td>
+
+<td id="goog">178.91</td>
+
+<td id="googchange">+0.18%</td>
+
+</tr>
+
+<tr>
+
+<td>TSLA</td>
+
+<td id="tsla">329.88</td>
+
+<td id="tslachange">-0.31%</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<section class="bottom">
+
+<div class="panel">
+
+<h2>🤖 Recent AI Tasks</h2>
+
+<ul>
+
+<li>✅ Generated Feed Handler Architecture</li>
+
+<li>✅ Generated C++ Classes</li>
+
+<li>✅ Generated Unit Tests</li>
+
+<li>✅ Reviewed Production Logs</li>
+
+<li>✅ Suggested Deployment Pipeline</li>
+
+</ul>
+
+</div>
+
+<div class="panel">
+
+<h2>📊 Latency Trend</h2>
+
+<canvas id="latencyChart"></canvas>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+AI Engineering Portfolio • Built by Akila S
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
